@@ -118,7 +118,7 @@ With **Java backend**, **SQL database**, and **JavaScript UI**, it ensures accur
 
 ---
 
-## 👨‍💻 Roles
+ 👨‍💻 Roles
 
 * **Admin** → Manage users, view all reports, access accident list.
 * **Reporter** → Add, edit, delete accident records.
@@ -126,7 +126,7 @@ With **Java backend**, **SQL database**, and **JavaScript UI**, it ensures accur
 
 ---
 
-## 📸 Screens (Optional to add later)
+ 📸 Screens (Optional to add later)
 
 * Login Page
 * Dashboard (Admin/Reporter/Viewer)
@@ -136,7 +136,7 @@ With **Java backend**, **SQL database**, and **JavaScript UI**, it ensures accur
 
 ---
 
-## 📄 License
+📄 License
 
 This project is for **educational purposes** only.
 
