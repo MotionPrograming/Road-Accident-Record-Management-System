@@ -1,131 +1,97 @@
-# Road-Accident-Record-Management-System
+# 🚦 RA-RMS (Road Accident Record Management System)
 
-# 🚦 Road Accident Record Management System (R-ARMS)
-
-A beginner-friendly **road accident record management system** using Java Servlets and SQL database.  
-This repository is designed for practicing **full-stack development, database management, and reporting features**.
+**RA-RMS** is a beginner-friendly **road accident record management system** built with **Java Servlets, JDBC, and SQL Database**.  
+It is designed to efficiently manage, report, and analyze road accident data, ensuring accuracy and ease of access.
 
 ---
 
-## 📂 Repository Structure
+## 📊 About the Project
 
-R-ARMS/
-│
-├── data/
-│ └── database.sql # SQL database schema
-│
-├── src/
-│ ├── UserAuthenticationServlet.java # Login & Role Management
-│ ├── AccidentRecordServlet.java # Add/Edit/Delete Accident Records
-│ ├── ReportServlet.java # Generate Monthly/Yearly Reports
-│ └── DatabaseConnection.java # JDBC Connection Handler
-│
-├── web/
-│ ├── index.html # Login Page
-│ ├── dashboard.html # User Dashboard (Admin/Reporter/Viewer)
-│ ├── add_accident.html # Add Accident Record Form
-│ ├── update_accident.html # Update Accident Record Form
-│ ├── search_accident.html # Search Page
-│ └── report.html # Report Page
-│
-├── README.md # Project description & instructions
-└── pom.xml / build.gradle # Project build file (if using Maven/Gradle)
+**RA-RMS** helps keep road accident information organized and accessible:
 
-pgsql
-Copy
-Edit
+| Feature                  | Description |
+|---------------------------|------------|
+| Accident Details          | Record date, time, location, vehicles, and severity |
+| User Roles                | Admin, Reporter, Viewer |
+| CRUD Operations           | Add, Edit, Delete, Search accidents |
+| Reports & Analytics       | Monthly/Yearly reports with charts |
+| Secure Access             | Role-based login and permissions |
 
 ---
 
-## 📊 About the System
+## 🚀 Modules & Features
 
-This system stores and manages road accident details, allowing users to **add, edit, delete, search**, and **generate reports** for better road safety management.
-
-**Database Tables**
-
-| Table      | Fields |
-|------------|-------|
-| Users      | `user_id, username, password, role` |
-| Accidents  | `accident_id, date, time, location, vehicles, severity, reporter_id` |
-| Reports    | `report_id, type, period, generated_on` |
-
----
-
-## 🚀 Features / Modules
-
-### 1️⃣ User Authentication & Roles
-- **Admin:** Full access to all modules, manage users, view reports  
-- **Reporter:** Add, edit, delete accident records  
-- **Viewer:** Search and view accident records only  
+### 1️⃣ User Authentication & Role Management
+- **Goal:** Secure login for Admin, Reporter, Viewer  
+- **Functions:**  
+  - Validate login credentials  
+  - Assign role-based access  
 
 ### 2️⃣ Accident Record Management
-- Add new accident details (date, time, location, vehicles, severity)  
-- Update or delete records  
-- Search accidents by date, location, or severity  
+- **Goal:** Full CRUD operations for accident data  
+- **Functions:**  
+  - Add new accident records  
+  - Update or delete records  
+  - Search accidents by date, location, or severity  
 
 ### 3️⃣ Report Generation
-- Generate **monthly and yearly reports**  
-- Display data in **tables and charts** for analysis  
+- **Goal:** Generate analytical reports for Admin  
+- **Functions:**  
+  - Monthly and yearly reports  
+  - Charts and summaries for decision-making  
 
 ---
 
-## 🛠️ Tools, Libraries, and Software Used
+## 🛠 Tools & Technologies
 
-**Programming Language:** Java  
-**Frontend:** HTML, CSS, Bootstrap  
-**Backend:** Java Servlets, JDBC  
-**Database:** SQL (MySQL/Oracle/PostgreSQL)  
-
-**Software & IDEs:**  
-- Eclipse / IntelliJ IDEA / VS Code  
-- JDK 1.8+  
-- Git for version control  
+| Layer      | Technology / Library |
+|------------|-------------------|
+| Frontend   | HTML, CSS, Bootstrap |
+| Backend    | Java Servlets, JDBC |
+| Database   | SQL (MySQL / Oracle / PostgreSQL) |
+| IDE / Tools| Eclipse / IntelliJ / VS Code, Git, Tomcat |
 
 ---
 
-## ⚡ How to Run the Project
+## ⚡ How to Run
 
-1. **Clone the repository**
+1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/R-ARMS.git
-Setup database
+git clone https://github.com/yourusername/RA-RMS.git
+Setup Database
 
 Import database.sql into your SQL server
 
-Update DatabaseConnection.java with DB credentials
+Update credentials in DatabaseConnection.java
 
 Build & Deploy
 
-Use Eclipse/IntelliJ or Apache Tomcat server
+Use Eclipse/IntelliJ or Apache Tomcat
 
 Deploy the project
 
-Open the project in a browser
+Access the Application
 
-Navigate to http://localhost:8080/R-ARMS
+Open in browser: http://localhost:8080/RA-RMS
 
-Login with Admin/Reporter/Viewer credentials
+Login as Admin / Reporter / Viewer
 
 ✅ Benefits
-Reduces manual paperwork
-
-Provides accurate accident records
-
-Easy search and reporting
+Reduces manual paperwork and errors
 
 Role-based access ensures security
 
-Charts and summaries help decision-making
+Quick search and reporting of accidents
+
+Charts and summaries for decision-making
+
+Supports real-world road safety management
 
 🌟 Future Enhancements
 Google Maps integration for accident locations
 
 Machine learning for accident prediction
 
-Mobile-friendly UI
+Mobile-friendly responsive UI
 
-Real-time notifications via Email/SMS
-
-yaml
-Copy
-Edit
+Real-time alerts via Email/SMS for critical accidents
