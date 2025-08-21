@@ -120,9 +120,9 @@ With **Java backend**, **SQL database**, and **JavaScript UI**, it ensures accur
 
  👨‍💻 Roles
 
-* **Admin** → Manage users, view all reports, access accident list.
-* **Reporter** → Add, edit, delete accident records.
-* **Viewer** → Search and view accident details.
+* Admin → Manage users, view all reports, access accident list.
+* Reporter → Add, edit, delete accident records.
+* Viewer → Search and view accident details.
 
 ---
 
